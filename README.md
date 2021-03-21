@@ -1,5 +1,27 @@
 # get-online-image
 
-[![](https://jitpack.io/v/Ah-Nyies/get-online-image.svg)](https://jitpack.io/#Ah-Nyies/get-online-image)
+### How to use ?
 
-<strong>implementation 'com.github.Ah-Nyies:get-online-image:71403f3580'</strong>
+### Add this code in Project Level Gardle file
+
+```html
+repositories {
+
+maven { url 'https://jitpack.io' }
+
+}
+```
+
+### And add this code in build gardle file
+
+```html
+implementation 'com.github.Ah-Nyies:get-online-image:71403f3580'
+```
+
+### Initializing library
+
+```htnl
+LIFU lifu = new LIFU(findViewById(R.id.YOUR_IMG_ID));
+lifu.loadImg("www.balh..blah../com/weeee.jpg",findViewById(R.id.YOUR_IMG_ID));
+```
+Done (:
