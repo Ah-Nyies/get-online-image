@@ -21,7 +21,10 @@ implementation 'com.github.Ah-Nyies:get-online-image:71403f3580'
 ### Initializing library
 
 ```htnl
-LIFU lifu = new LIFU(findViewById(R.id.YOUR_IMG_ID));
-lifu.loadImg("www.balh..blah../com/weeee.jpg",findViewById(R.id.YOUR_IMG_ID));
+LIFU lifu = new LIFU(findViewById(R.id.YOUR_IMG_ID) );
+
+lifu.loadImg("www.balh..blah../com/weeee.jpg" , findViewById(R.id.YOUR_IMG_ID) );
 ```
+```javascript
 Done (:
+```
