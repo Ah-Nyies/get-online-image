@@ -1,5 +1,3 @@
 # get-online-image
 
-Use this
-
-implementation 'com.github.Ah-Nyies:get-online-image:-SNAPSHOT'
+[![](https://jitpack.io/v/Ah-Nyies/get-online-image.svg)](https://jitpack.io/#Ah-Nyies/get-online-image)
