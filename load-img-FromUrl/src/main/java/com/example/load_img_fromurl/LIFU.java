@@ -34,7 +34,7 @@ public class LIFU extends AsyncTask<String, Void, Bitmap> {
     }
 
 
-    public void loadImg(String url,ImageView id){
+    public static void loadImg(String url,ImageView id){
 
         new LIFU((ImageView) id)
                 .execute(url);
